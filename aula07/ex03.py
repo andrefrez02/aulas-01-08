@@ -1,6 +1,3 @@
-import math as m
-
-from numpy import intc
 print('Entrada:\nFaça um programa em Python que leia um valor n, inteiro e positivo, calcule e',
       'mostre a seguinte soma: ',
       'S = 1 + 1/2 + 1/3 + 1/4 +...+ 1/n\n')
@@ -27,7 +24,6 @@ for i in range(n):
     elif c == n:
         res = res + 1/c
         print(f' 1/{c}\nS = {res:.2f}')
-    
     else:
         res = res + 1/c
         print(f' 1/{c}', end = ' +')
