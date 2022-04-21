@@ -56,7 +56,7 @@ match count_f:
     case default:
         print(f'E a média de altura das mulheres é de: {(soma_f / count_f):.2f}')
 count_ex, imp = 0, []
-extra = input('\nDeseja ver a lista completa de cadastros?[S/N]:')
+extra = input('\nDeseja ver a lista completa de cadastros?[S/N]: ')
 if extra in 'Ss':
     for i in cadastros_total:
         imp = cadastros_total[count_ex]
