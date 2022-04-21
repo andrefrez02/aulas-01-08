@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+from operator import neg
+
+
+>>>>>>> ac571f66eb8389cf62a0e5c67aba936ccf1a2cc7
 print('Escreva um algoritmo que leia um grupo de valores reais e determine quantos',
       'valores são positivos e quantos são negativos. Determine, também, qual é o',
       'menor desses valores. Utilize o comando de repetição que desejar.')

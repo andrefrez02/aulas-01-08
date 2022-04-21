@@ -1,6 +1,7 @@
 print('Temos um grupo de pessoas. Escreva um programa em Python que leia o',
 'sexo e a altura de cada pessoa, calcule e mostre a altura média das mulheres e',
 'dos homens separadamente. Utilize o comando de repetição que desejar.\n\nEntrada:')
+<<<<<<< HEAD
 cadastros_total, count0, count1, count2 = [], 0, -1, -1
 inp0, inp1, fim = '0', False, False
 cadastros_mulheres, cadastros_homens, count_f, count_m = [], [], 0, 0
@@ -64,3 +65,23 @@ if extra in 'Ss':
         imp2 = imp[1]
         count_ex += 1
         print(f'{count_ex}° cadastro | Sexo: {str(imp1[0]).capitalize()} | Altura: {imp2[0]:.2f} metros')
+=======
+cadastros_sexo, cadastros_altura = [], []
+resp, count, count_homem, count_mulher = 's', 0, 0, 0
+rsexo, raltura = 'n', 0
+while not resp in 'nN':
+    while not rsexo in 'FfMm':
+        rsexo = input('Digite o sexo dessa pessoa[F/M]: ')
+        cadastros_sexo.append(rsexo)
+        if rsexo in 'fF':
+            count_mulher += 1
+        elif rsexo in 'mM':
+            count_homem += 1
+    while raltura :
+        raltura = float(input('Digite a altura dessa pessoa em m: '))
+        cadastros_altura.append(raltura)
+    count += 1
+    rsexo = 'x'
+    raltura = 0
+    resp = input('Continuar digitando pessoas[S/N]?: ')
+>>>>>>> ac571f66eb8389cf62a0e5c67aba936ccf1a2cc7
